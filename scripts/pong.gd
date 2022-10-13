@@ -1,5 +1,4 @@
 extends KinematicBody2D
-signal deflect_ball(num)
 export (int) var p_speed = 200
 var paddle_velocity = Vector2(0, 0)
 func move(num):
